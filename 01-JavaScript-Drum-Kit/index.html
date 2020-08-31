@@ -68,14 +68,29 @@
             const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
             console.log(audio);
             // if key doesn't exist exit event
-            if(!audio)return;
+            if (!audio) return;
             // rewind to start of element
-            audio.currentTime=0;
+            audio.currentTime = 0;
             audio.play();
             console.log(key)
             // to add styling on playing
             key.classList.add("playing")
- });
+            // transition end for 
+        });
+        // function for removing styling 
+        function removeTransition(e) {
+            console.log(e)
+            // skip if not transform
+            if (e.propertyName !== "transform") return;
+            console.log(e.propertyName)
+            // remove styling after playing
+            this.classList.remove("playing")
+        }
+        // listener for transition end event
+        const keys = document.querySelectorAll(".key");
+        // end event happens for each key
+        keys.forEach(key => key.addEventListener("transitionend", removeTransition));
+
     </script>
 
 
