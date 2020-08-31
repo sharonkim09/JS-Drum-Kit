@@ -65,12 +65,16 @@
         window.addEventListener("keydown", function (e) {
             // console.log(e.keycode)
             const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
+            const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
             console.log(audio);
             // if key doesn't exist exit event
             if(!audio)return;
             // rewind to start of element
             audio.currentTime=0;
             audio.play();
+            console.log(key)
+            // to add styling on playing
+            key.classList.add("playing")
  });
     </script>
 
