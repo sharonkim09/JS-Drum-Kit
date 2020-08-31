@@ -14,8 +14,9 @@ Going over the challenges to refresh my skills in JS.
 
 Press the keys that are displayed on the screen to hear the audio
 
+[Deployed Site](https://sharonkim09.github.io/JS-Drum-Kit/)
 ![](./JS-DrumKit.png)
-[Demo](https://sharonkim09.github.io/JS-Drum-Kit/)
+
 
 ## Credit
 
