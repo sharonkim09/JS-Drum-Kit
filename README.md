@@ -1,2 +1,8 @@
 # JavaScript30
-practicing js from js challenges by Wes Bos without any frameworks, no compilers, no boilerplate, and no libraries.
+Refreshing my skills of JS using JavaScript30 Day Challenge by Wes Bos @ https://github.com/wesbos
+
+### Challenges
+- [  ] JavaScript Drum Kit
+
+### Credit
+Credit to [Wes Bos](https://github.com/wesbos) for creating the challenge
