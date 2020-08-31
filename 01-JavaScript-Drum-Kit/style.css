@@ -1,5 +1,7 @@
 html {
     font-size: 10px;
+    background-image:url(https://pearldrum.com/common/assets/images/background.jpg);
+    background-size: cover;
   }
   
   body,html {
@@ -26,7 +28,8 @@ html {
     width: 10rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
+    background:#3a3529;
+    opacity:0.8;
     text-shadow: 0 0 .5rem black;
   }
   
@@ -45,5 +48,5 @@ html {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #ffc800;
   }
